@@ -51,6 +51,7 @@ class TicTacToe
   #      end 
       counter += 1 if el != " "
       end 
+      counter 
     end 
 
 end 
