@@ -20,9 +20,6 @@ class TicTacToe
       puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
       puts "___________"
       puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
-      
     end 
     
 end 
-
-TicTacToe.new.display_board
