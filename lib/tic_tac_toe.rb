@@ -66,9 +66,8 @@ class TicTacToe
     
     def turn 
       puts "Choose a number between 1-9"
+      input = input_to_index(gets.chomp)
       
-      1 
-      input = gets.chomp 
     end 
 
 end 
