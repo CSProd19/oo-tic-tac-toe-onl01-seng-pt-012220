@@ -24,3 +24,5 @@ class TicTacToe
     end 
     
 end 
+
+TicTacToe.new.display_board
