@@ -91,8 +91,8 @@ class TicTacToe
     end 
     
     def full? 
-#      turn_count == 9 
-      !@board.won? 
+      turn_count == 9 
+#      !@board.won? 
     end 
     
     def draw?
