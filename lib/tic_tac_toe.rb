@@ -55,7 +55,20 @@ class TicTacToe
     end 
     
     def current_player
-      turn_count % 2 == 0 ? "X" : "O"
+#      turn_count % 2 == 0 ? "X" : "O"
+      if turn_count % 2 == 0 
+        "X"
+      else 
+        "O"
+      end 
+#      turn_count.even? ? "X" : "O"
+    end 
+    
+    def turn 
+      puts "Choose a number between 1-9"
+      
+      1 
+      input = gets.chomp 
     end 
 
 end 
